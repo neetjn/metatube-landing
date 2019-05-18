@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "npx eslint src/**/**.js",
     "pretty": "npx prettier-eslint --write src/**/**.js",
-    "build": "npm run lint && npm run pretty && node_modules/.bin/webpack webpack.config.js"
+    "bundle": "./node_modules/.bin/webpack webpack.config.js",
+    "build": "npm run lint && npm run pretty && npm run bundle"
   },
   "repository": {
     "type": "git",

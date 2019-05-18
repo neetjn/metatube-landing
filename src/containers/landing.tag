@@ -6,6 +6,9 @@
   <footer></footer>
   <float-nav></float-nav>
   <script>
-    // TODO: add analytics analyzer
+    import '../components/banner.tag'
   </script>
+  <style>
+
+  </style>
 </landing>
