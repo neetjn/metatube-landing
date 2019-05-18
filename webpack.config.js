@@ -2,7 +2,7 @@ const autoprefixer = require('autoprefixer')
 const WebpackNotifierPlugin = require('webpack-notifier')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
+// const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 
 module.exports = {
   entry: {
@@ -17,7 +17,7 @@ module.exports = {
   node: {
     fs: 'empty'
   },
-  target: 'node',
+  // target: 'node',
   plugins: [
     new WebpackNotifierPlugin({ alwaysNotify: true }),
 
@@ -27,16 +27,16 @@ module.exports = {
 
     new OptimizeCSSAssetsPlugin({}),
 
-    new BrowserSyncPlugin({
-      proxy: 'mysite.local',
-      open: 'external',
-      host: 'mysite.local',
-      port: 3000,
-      files: ['./dist/main.css', './views', './tailwind.js']
-    },
-    {
-      reload: false
-    })
+    // new BrowserSyncPlugin({
+    //   proxy: 'mysite.local',
+    //   open: 'external',
+    //   host: 'mysite.local',
+    //   port: 3000,
+    //   files: ['./dist/main.css', './views', './tailwind.js']
+    // },
+    // {
+    //   reload: false
+    // })
   ],
   module: {
     rules: [
