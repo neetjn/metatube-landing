@@ -6,9 +6,17 @@
   <footer></footer>
   <float-nav></float-nav>
   <script>
-    import '../components/banner.tag'
-  </script>
-  <style>
+    import Banner from '../components/banner.tag'
+    import About from '../components/about.tag'
 
-  </style>
+    export default {
+      components: {
+        Banner,
+        About
+      },
+      onMounted() {
+        console.log('Landing mounted')
+      }
+    }
+  </script>
 </landing>

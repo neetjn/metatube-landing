@@ -1,5 +1,5 @@
 const autoprefixer = require('autoprefixer')
-const WebpackNotifierPlugin = require('webpack-notifier')
+// const WebpackNotifierPlugin = require('webpack-notifier')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 // const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
@@ -14,15 +14,18 @@ module.exports = {
   },
   watch: false,
   mode: 'development',
-  node: {
-    fs: 'empty'
-  },
-  // target: 'node',
+  // node: {
+  //   fs: 'empty',
+  //   net: 'empty',
+  //   child_process: 'empty',
+  //   module: 'empty'
+  // },
+  target: 'web',
   plugins: [
-    new WebpackNotifierPlugin({ alwaysNotify: true }),
+    // new WebpackNotifierPlugin({ alwaysNotify: true }),
 
     new MiniCssExtractPlugin({
-      fileame: 'metatube.bundle.css'
+      filename: 'metatube.bundle.css'
     }),
 
     new OptimizeCSSAssetsPlugin({}),
@@ -51,7 +54,7 @@ module.exports = {
         }
       },
       {
-        test: /\.riot$/,
+        test: /\.tag$/,
         exclude: /node_modules/,
         use: [{
           loader: '@riotjs/webpack-loader',
