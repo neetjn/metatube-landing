@@ -44,6 +44,7 @@
     "riot": "^4.0.0-rc.13",
     "sass-loader": "^7.1.0",
     "tailwindcss": "^1.0.1",
+    "url-loader": "^1.1.2",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2",
     "webpack-notifier": "^1.7.0"

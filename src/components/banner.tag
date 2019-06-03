@@ -1,7 +1,7 @@
 <banner>
   <div class="flex mb-4">
-    <div class="w-12 h-12">
-      <img src="../assets/images/metatube_light_01.png" />
+    <div class="w-full">
+      <img width="300px" height="auto" class="block" src={ Logo } />
     </div>
   </div>
   <div class="flex mb-4">
@@ -11,5 +11,10 @@
     Button
   </button>
   <script>
+    import Logo from '../assets/images/metatube_dark_01.png'
+
+    export default {
+      Logo
+    }
   </script>
 </banner>
