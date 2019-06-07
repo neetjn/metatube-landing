@@ -1,7 +1,7 @@
 <landing>
-  <div class="flex-1 mx-auto w-full">
-    <banner class="flex-1 w-full h-full"></banner>
-    <about class="flex-1 w-full h-full"></about>
+  <div class="flex-1 mx-auto w-full h-full">
+    <banner class="block w-full"></banner>
+    <about class="block w-full"></about>
   </div>
   <sticky-footer class="w-full"></sticky-footer>
   <script>
