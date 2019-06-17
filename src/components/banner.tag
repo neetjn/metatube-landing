@@ -4,7 +4,9 @@
     <div class="container">
       <form class="content-center" onsubmit={ sendEmail }>
         <input type="email" name="emailAddress" />
-        <button type="submit">Join Us</button>
+        <button class="btn-primary" type="submit">
+          Join Us
+        </button>
       </form>
     </div>
   </div>

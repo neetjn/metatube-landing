@@ -1,8 +1,5 @@
-const autoprefixer = require('autoprefixer')
-// const WebpackNotifierPlugin = require('webpack-notifier')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
-// const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 
 module.exports = {
   entry: {
@@ -22,24 +19,11 @@ module.exports = {
   // },
   target: 'web',
   plugins: [
-    // new WebpackNotifierPlugin({ alwaysNotify: true }),
-
     new MiniCssExtractPlugin({
       filename: 'metatube.bundle.css'
     }),
 
-    new OptimizeCSSAssetsPlugin({}),
-
-    // new BrowserSyncPlugin({
-    //   proxy: 'mysite.local',
-    //   open: 'external',
-    //   host: 'mysite.local',
-    //   port: 3000,
-    //   files: ['./dist/main.css', './views', './tailwind.js']
-    // },
-    // {
-    //   reload: false
-    // })
+    new OptimizeCSSAssetsPlugin({})
   ],
   module: {
     rules: [
@@ -79,32 +63,10 @@ module.exports = {
         ]
       },
       {
-        test: /\.scss$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          { loader: 'css-loader', options: { importLoaders: 1 } },
-          {
-            loader: 'postcss-loader',
-            options: {
-              config: {
-                path: './src/postcss.config.js'
-              }
-            }
-          },
-          {
-            loader: 'sass-loader',
-            options: {
-              plugins: () => [autoprefixer()]
-            }
-          }
-        ]
-      },
-      {
         test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,
-          { loader: 'css-loader', options: { importLoaders: 1 } },
-          { loader: 'postcss-loader' }
+          { loader: 'css-loader', options: { importLoaders: 1 } }
         ]
       }
     ]
