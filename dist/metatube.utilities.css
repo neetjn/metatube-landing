@@ -6955,6 +6955,7 @@
 .btn {
   color: #fff;
   font-weight: 700;
+  border-width: 0;
   border-radius: 0.25rem;
   background-color: #4299e1;
   padding-top: 0.5rem;
@@ -6966,6 +6967,7 @@
 .btn-primary {
   color: #fff;
   font-weight: 700;
+  border-width: 0;
   border-radius: 0.25rem;
   background-color: #4299e1;
   padding-top: 0.5rem;
