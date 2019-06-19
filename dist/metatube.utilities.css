@@ -6964,6 +6964,10 @@
   padding-right: 1rem;
 }
 
+.btn:hover {
+  background-color: #3182ce;
+}
+
 .btn-primary {
   color: #fff;
   font-weight: 700;
@@ -6975,6 +6979,10 @@
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: #ecc94b;
+}
+
+.btn-primary:hover {
+  background-color: #d69e2e;
 }
 
 @media (min-width: 640px){
