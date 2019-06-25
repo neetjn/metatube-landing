@@ -10,8 +10,6 @@
     import About from '../components/about.tag'
     import StickyFooter from '../components/sticky-footer.tag'
 
-    console.log(StickyFooter)
-
     export default {
       components: {
         Banner,
@@ -19,7 +17,7 @@
         StickyFooter
       },
       onMounted() {
-        console.log('Landing mounted')
+        // do something
       }
     }
   </script>

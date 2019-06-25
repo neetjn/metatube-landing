@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "npx eslint src/**/**.js",
     "pretty": "npx prettier-eslint --write src/**/**.js",
-    "bundle": "./node_modules/.bin/webpack --config webpack.config.js && ./node_modules/.bin/tailwind build src/assets/styles/metatube.css -o dist/metatube.utilities.css",
+    "bundle": "./node_modules/.bin/webpack --config webpack.config.js && ./node_modules/.bin/tailwind build src/assets/styles/metatube.css -o dist/metatube.utilities.css -c ./src/tailwind.js",
     "build": "npm run lint && npm run pretty && npm run bundle"
   },
   "repository": {
