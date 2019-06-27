@@ -1,0 +1,7 @@
+* {
+  background: red;
+}
+
+.inner-banner {
+  background: white url('../../../assets/images/banner.jpg') no-repeat center;
+}

@@ -31,6 +31,7 @@
     "css-loader": "^2.1.1",
     "cssnano": "^4.1.10",
     "file-loader": "^3.0.1",
+    "foobar-ipsum": "^1.0.3",
     "fullpage.js": "^3.0.5",
     "mini-css-extract-plugin": "^0.6.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",

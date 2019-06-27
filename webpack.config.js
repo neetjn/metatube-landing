@@ -40,13 +40,15 @@ module.exports = {
       {
         test: /\.tag$/,
         exclude: /node_modules/,
-        use: [{
-          loader: '@riotjs/webpack-loader',
-          options: {
-            hot: false,
-            scopedCss: true
-          }
-        }]
+        use: [
+          {
+            loader: '@riotjs/webpack-loader',
+            options: {
+              hot: false,
+              // scopedCss: true
+            },
+          },
+        ]
       },
       {
         test: /\.(png|jpg|gif|svg|eot|ttf|woff)$/,

@@ -12,17 +12,15 @@
   </div>
   <button class="btn">Button</button>
   <style>
+    @import '../assets/styles/partials/banner.css';
+
     banner {
       background: rgb(59,59,59);
       background: linear-gradient(198deg, rgba(59,59,59,1) 48%, rgba(236,201,75,1) 100%, rgba(236,201,75,1) 100%);
     }
-    .inner-banner {
-      background: url(data:image:/{Background}) no-repeat center;
-    }
   </style>
   <script>
     import Logo from '../assets/images/metatube_light_01.png'
-    import Background from '../assets/images/banner.jpg'
 
     export default {
       Logo,
