@@ -7,7 +7,7 @@ module.exports = {
     }
   },
   plugins: [
-    require('tailwindcss-transitions')(),
     require('tailwindcss-filters')(),
+    require('tailwindcss-transitions')(),
   ]
 }
