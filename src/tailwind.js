@@ -1,4 +1,3 @@
-
 module.exports = {
   theme: {
     screens: {
@@ -11,7 +10,5 @@ module.exports = {
       }
     }
   },
-  plugins: [
-    require('tailwindcss-transitions')(),
-  ]
+  plugins: [require('tailwindcss-transitions')()]
 }
