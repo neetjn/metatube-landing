@@ -47,5 +47,6 @@
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.7.1",
     "webpack-notifier": "^1.7.0"
-  }
+  },
+  "dependencies": {}
 }

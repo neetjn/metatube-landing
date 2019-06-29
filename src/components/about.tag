@@ -21,14 +21,6 @@
     </div>
   </div>
   <script>
-    export default {
-      onMounted() {
-        console.log('about tag mounted')
-        console.log(this.ipsum.sentence())
-      }
-      onUpdated() {
-        console.log('about tag has been updated')
-      }
-    }
+    export default { }
   </script>
 </about>

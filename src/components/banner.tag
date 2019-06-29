@@ -24,9 +24,6 @@
 
     export default {
       Logo,
-      onMounted() {
-        console.log(this)
-      }
       sendEmail(e) {
 
       }
