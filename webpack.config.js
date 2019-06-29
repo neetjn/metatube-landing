@@ -51,12 +51,12 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jpg|gif|svg|eot|ttf|woff)$/,
+        test: /\.(png|jp(e*)g|gif|svg|eot|ttf|woff)$/,
         use: [
           {
             loader: 'url-loader',
             options: {
-              limit: 8192
+              // limit: 20000
             }
           },
           // {

@@ -1,6 +1,6 @@
 <adopters>
   <h1>Adopters</h1>
-  <svg width="960" height="500">
+  <svg width="100%" height="500">
     <defs></defs>
   </svg>
   <script>
