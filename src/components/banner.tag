@@ -2,7 +2,7 @@
   <div class="inner-banner backdrop-blur"
        style="background: url({Banner}) no-repeat center;">
     <!--  <img class="block z-0" src={ BannerImage } />  -->
-    <img class="block m-auto pt-16 pb-16 sm:pt-32 sm:pb-32 logo z-1" src={ Logo } width="300px" height="auto" />
+    <img class="block m-auto pt-20 pb-20 md:pt-32 md:pb-32 logo z-1" src={ Logo } width="300px" height="auto" />
     <div class="container z-1">
       <form class="content-center" onsubmit={ sendEmail }>
         <input type="email" name="emailAddress" />
