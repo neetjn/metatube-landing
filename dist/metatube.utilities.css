@@ -6966,6 +6966,36 @@
   z-index: auto
 }
 
+.filter-none{
+  -webkit-filter: none;
+          filter: none
+}
+
+.filter-grayscale{
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1)
+}
+
+.filter-invert{
+  -webkit-filter: invert(1);
+          filter: invert(1)
+}
+
+.filter-sepia{
+  -webkit-filter: sepia(1);
+          filter: sepia(1)
+}
+
+.backdrop-none{
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none
+}
+
+.backdrop-blur{
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px)
+}
+
 .transition-none{
   transition-property: none
 }
@@ -14023,6 +14053,36 @@
 
   .sm\:z-auto{
     z-index: auto
+  }
+
+  .sm\:filter-none{
+    -webkit-filter: none;
+            filter: none
+  }
+
+  .sm\:filter-grayscale{
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1)
+  }
+
+  .sm\:filter-invert{
+    -webkit-filter: invert(1);
+            filter: invert(1)
+  }
+
+  .sm\:filter-sepia{
+    -webkit-filter: sepia(1);
+            filter: sepia(1)
+  }
+
+  .sm\:backdrop-none{
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none
+  }
+
+  .sm\:backdrop-blur{
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px)
   }
 
   .sm\:transition-none{
@@ -21085,6 +21145,36 @@
     z-index: auto
   }
 
+  .md\:filter-none{
+    -webkit-filter: none;
+            filter: none
+  }
+
+  .md\:filter-grayscale{
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1)
+  }
+
+  .md\:filter-invert{
+    -webkit-filter: invert(1);
+            filter: invert(1)
+  }
+
+  .md\:filter-sepia{
+    -webkit-filter: sepia(1);
+            filter: sepia(1)
+  }
+
+  .md\:backdrop-none{
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none
+  }
+
+  .md\:backdrop-blur{
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px)
+  }
+
   .md\:transition-none{
     transition-property: none
   }
@@ -28145,6 +28235,36 @@
     z-index: auto
   }
 
+  .lg\:filter-none{
+    -webkit-filter: none;
+            filter: none
+  }
+
+  .lg\:filter-grayscale{
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1)
+  }
+
+  .lg\:filter-invert{
+    -webkit-filter: invert(1);
+            filter: invert(1)
+  }
+
+  .lg\:filter-sepia{
+    -webkit-filter: sepia(1);
+            filter: sepia(1)
+  }
+
+  .lg\:backdrop-none{
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none
+  }
+
+  .lg\:backdrop-blur{
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px)
+  }
+
   .lg\:transition-none{
     transition-property: none
   }
@@ -35203,6 +35323,36 @@
 
   .xl\:z-auto{
     z-index: auto
+  }
+
+  .xl\:filter-none{
+    -webkit-filter: none;
+            filter: none
+  }
+
+  .xl\:filter-grayscale{
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1)
+  }
+
+  .xl\:filter-invert{
+    -webkit-filter: invert(1);
+            filter: invert(1)
+  }
+
+  .xl\:filter-sepia{
+    -webkit-filter: sepia(1);
+            filter: sepia(1)
+  }
+
+  .xl\:backdrop-none{
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none
+  }
+
+  .xl\:backdrop-blur{
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px)
   }
 
   .xl\:transition-none{
