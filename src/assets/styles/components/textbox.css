@@ -1,5 +1,4 @@
 .textbox {
   @apply border-yellow-500
-         border-1
          rounded-none;
 }

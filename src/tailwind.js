@@ -1,14 +1,14 @@
 module.exports = {
   theme: {
     filter: {
-      'none': 'none',
-      'grayscale': 'grayscale(1)',
-      'invert': 'invert(1)',
-      'sepia': 'sepia(1)',
+      none: 'none',
+      grayscale: 'grayscale(1)',
+      invert: 'invert(1)',
+      sepia: 'sepia(1)'
     },
     backdropFilter: {
-      'none': 'none',
-      'blur': 'blur(20px)',
+      none: 'none',
+      blur: 'blur(20px)'
     },
     extend: {
       boxShadow: {
@@ -18,6 +18,6 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-filters')(),
-    require('tailwindcss-transitions')(),
+    require('tailwindcss-transitions')()
   ]
 }
