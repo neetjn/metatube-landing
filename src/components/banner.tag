@@ -3,13 +3,14 @@
        style="background: url({Banner}) no-repeat center;">
     <img class="block m-auto pt-20 pb-10 md:pt-32 md:pb-16"
          src={ Logo }
-         width="300px"
+         width="350px"
          height="auto" />
-    <!-- TODO: figure out why component styles arent being imported -->
-    <div class="container pb-10 md:pb-32">
-      <form class="content-center"
+    <div class="container m-auto pb-10 md:pb-32">
+      <form class="block m-auto max-w-sm"
             onsubmit={ sendEmail }>
-        <input class="textbox p-2 m-auto" type="email" name="emailAddress" />
+        <!-- TODO: Add icon FA alt. -->
+        <!-- TODO: Add textbox icon -->
+        <input class="textbox w-2/3 p-2 m-auto mr-2" type="email" name="emailAddress" />
         <button class="btn-primary" type="submit">
           Join Us
         </button>
