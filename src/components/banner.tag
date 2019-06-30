@@ -1,14 +1,15 @@
 <banner>
   <div class="inner-banner opacity-50 backdrop-blur"
        style="background: url({Banner}) no-repeat center;">
-    <img class="block m-auto pt-20 pb-20 md:pt-32 md:pb-32"
+    <img class="block m-auto pt-20 pb-10 md:pt-32 md:pb-16"
          src={ Logo }
          width="300px"
          height="auto" />
-    <div class="container">
+    <!-- TODO: figure out why component styles arent being imported -->
+    <div class="container pb-10 md:pb-32">
       <form class="content-center"
             onsubmit={ sendEmail }>
-        <input type="email" name="emailAddress" />
+        <input class="textbox p-2 m-auto" type="email" name="emailAddress" />
         <button class="btn-primary" type="submit">
           Join Us
         </button>
@@ -20,11 +21,6 @@
     banner {
       background: rgb(59,59,59);
       background: linear-gradient(198deg, rgba(59,59,59,1) 48%, rgba(236,201,75,1) 100%, rgba(236,201,75,1) 100%);
-    }
-
-    .banner-image {
-      filter: blur(8px);
-      -webkit-filter: blur(8px);
     }
   </style>
   <script>

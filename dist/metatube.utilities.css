@@ -28,8 +28,6 @@
   }
 }
 
-@import "./components/_all.css";
-
 .appearance-none{
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -7117,6 +7115,8 @@
 .will-change-transform{
   will-change: transform
 }
+
+@import "./components/_all.css";
 
 @media (min-width: 640px){
   .sm\:appearance-none{
