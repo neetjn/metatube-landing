@@ -2,6 +2,8 @@ import * as riot from 'riot'
 import foobarIpsum from 'foobar-ipsum'
 import Landing from './containers/landing.tag'
 
+import './assets/styles/metatube.css'
+
 const ipsum = new foobarIpsum({
   size: {
     sentence: 10,

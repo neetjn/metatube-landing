@@ -11,18 +11,11 @@ module.exports = {
   },
   watch: false,
   mode: 'development',
-  // node: {
-  //   fs: 'empty',
-  //   net: 'empty',
-  //   child_process: 'empty',
-  //   module: 'empty'
-  // },
   target: 'web',
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'metatube.bundle.css'
     }),
-
     new OptimizeCSSAssetsPlugin({})
   ],
   module: {
@@ -45,7 +38,7 @@ module.exports = {
             loader: '@riotjs/webpack-loader',
             options: {
               hot: false,
-              // scopedCss: true
+              scopedCss: true
             },
           },
         ]
@@ -55,20 +48,26 @@ module.exports = {
         use: [
           {
             loader: 'url-loader',
-            options: {
-              // limit: 20000
-            }
+            // options: {
+            //   limit: 100000
+            // }
           },
-          // {
-          //   loader: 'file-loader'
-          // }
         ]
+      },
+      {
+        test: /\.(woff2?|ttf|otf|eot|svg)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]'
+        }
       },
       {
         test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,
-          { loader: 'css-loader', options: { importLoaders: 1 } }
+          { loader: 'css-loader', options: { importLoaders: 1 } },
+          { loader: 'resolve-url-loader' },
+          { loader: 'postcss-loader', options: { sourceMap: true } },
         ]
       }
     ]

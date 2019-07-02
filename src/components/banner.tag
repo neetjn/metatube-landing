@@ -8,8 +8,9 @@
     <div class="container m-auto pb-10 md:pb-32">
       <form class="block m-auto max-w-sm"
             onsubmit={ sendEmail }>
-        <!-- TODO: Add icon FA alt. -->
-        <!-- TODO: Add textbox icon -->
+        <span class="bg-gray-500 p-2">
+          <i class="entypo entypo-mail text-bold text-3xl"></i>
+        </div>
         <input class="textbox w-2/3 p-2 m-auto mr-2" type="email" name="emailAddress" />
         <button class="btn-primary" type="submit">
           Join Us
@@ -17,7 +18,6 @@
       </form>
     </div>
   </div>
-  <button class="btn">Button</button>
   <style>
     banner {
       background: rgb(59,59,59);
