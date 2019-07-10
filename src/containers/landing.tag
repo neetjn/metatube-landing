@@ -1,4 +1,5 @@
 <landing>
+  <navigation class="fixed x-0 y-0 block w-full"></navigation>
   <div class="flex-1 mx-auto w-full h-full">
     <banner class="block w-full"></banner>
     <about class="block w-full"></about>
@@ -7,6 +8,7 @@
   </div>
   <sticky-footer class="w-full"></sticky-footer>
   <script>
+    import Navigation from '../components/navigation.tag'
     import Banner from '../components/banner.tag'
     import About from '../components/about.tag'
     import Adopters from '../components/adopters.tag'
@@ -15,6 +17,7 @@
 
     export default {
       components: {
+        Navigation,
         Banner,
         About,
         Adopters,
