@@ -1,5 +1,5 @@
 <landing>
-  <navigation class="fixed x-0 y-0 block w-full"></navigation>
+  <navigation class="absolute z-10 x-0 y-0 block w-full"></navigation>
   <div class="flex-1 mx-auto w-full h-full">
     <banner class="block w-full"></banner>
     <about class="block w-full"></about>
@@ -11,7 +11,8 @@
     import Navigation from '../components/navigation.tag'
     import Banner from '../components/banner.tag'
     import About from '../components/about.tag'
-    import Adopters from '../components/adopters.tag'
+    // import Adopters from '../components/adopters.tag'
+    import Adopters from '../components/adopters/adopters-v2.tag'
     import Contact from '../components/contact.tag'
     import StickyFooter from '../components/sticky-footer.tag'
 

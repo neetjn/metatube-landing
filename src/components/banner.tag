@@ -1,15 +1,16 @@
 <banner>
   <div class="inner-banner opacity-50 backdrop-blur"
        style="background: url({Banner}) no-repeat center;">
-    <img class="block m-auto pt-20 pb-10 md:pt-32 md:pb-16"
+    <img class="block m-auto pt-20 pb-10 md:pt-32 md:pb-16 animated fadeIn"
          src={ Logo }
+         alt="Metatube logo"
          width="350px"
          height="auto" />
-    <div class="container m-auto pb-10 md:pb-32">
+    <div class="container m-auto pb-10 md:pb-30 animated fadeIn">
       <form class="block m-auto max-w-sm"
             onsubmit={ sendEmail }>
         <span class="bg-gray-500 p-2">
-          <i class="entypo entypo-mail text-bold text-3xl"></i>
+          <i class="fa fa-inbox text-bold text-3xl"></i>
         </div>
         <input class="textbox w-2/3 p-2 m-auto mr-2" type="email" name="emailAddress" />
         <button class="btn-primary" type="submit">
