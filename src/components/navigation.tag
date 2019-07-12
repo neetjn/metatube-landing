@@ -1,5 +1,5 @@
 <navigation>
-  <nav class="flex items-center justify-between flex-wrap p-6">
+  <nav class="flex items-center justify-between flex-wrap p-6 uppercase">
     <div class="block w-full lg:hidden">
       <button class="flex items-center px-3 py-2 border text-white border-yellow-500
                      hover:text-yellow-500 hover:border-white transition-color transition-ease-in-out transition-250"
@@ -22,8 +22,8 @@
         <a href="https://neetgroup.net/projects/metatube"
            class="inline-block text-sm px-4 py-2 leading-none border text-white border-white
                   hover:border-transparent hover:text-yellow-500 hover:bg-white mt-4 lg:mt-0
-                  transition-all transition-ease-in-out transition-250">
-          <i class="fa fa-bitcoin mr-4"> Support Us
+                  transition-all transition-ease-in-out transition-250 uppercase font-bold">
+          <i class="fa fa-bitcoin"></i> Support Us
         </a>
       </div>
     </div>

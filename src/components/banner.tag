@@ -1,12 +1,13 @@
 <banner>
   <div class="inner-banner opacity-50 backdrop-blur"
        style="background: url({Banner}) no-repeat center;">
-    <img class="block m-auto pt-20 pb-10 md:pt-32 md:pb-16 animated fadeIn"
+    <img class="block m-auto pt-20 md:pt-32 pb-4 animated fadeIn"
          src={ Logo }
          alt="Metatube logo"
          width="350px"
          height="auto" />
     <div class="container m-auto pb-10 md:pb-30 animated fadeIn">
+      <h1 class="text-center text-white text-2xl font-bold uppercase pb-2">Join the Mailing List!</h1>
       <form class="block m-auto max-w-sm"
             onsubmit={ sendEmail }>
         <span class="bg-gray-500 p-2">

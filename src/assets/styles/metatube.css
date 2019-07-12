@@ -1,3 +1,11 @@
+/*
+  Import fonts from Google for tailwind config:
+    https://fonts.google.com/
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700,800");
+/* Import Line Awesome icons with FA shim:
+    https://icons8.com/line-awesome
+*/
 @import "line-awesome/css/line-awesome";
 @import "animate.css/animate";
 
@@ -7,7 +15,6 @@
 
 @import "./components/_all";
 
-
-/* @tailwind preflight;
-@tailwind components;
-@tailwind utilities; */
+* {
+  @apply font-global;
+}

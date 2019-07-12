@@ -2,7 +2,8 @@
   /* Default Btn Color */
   @apply bg-blue-500;
 
-  @apply font-bold
+  @apply uppercase
+         font-bold
          text-white
          rounded-none
          border-0
