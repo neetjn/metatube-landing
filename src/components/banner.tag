@@ -10,13 +10,15 @@
       <h1 class="text-center text-white text-2xl font-bold uppercase pb-2">Join the Mailing List!</h1>
       <form class="block m-auto max-w-sm"
             onsubmit={ sendEmail }>
-        <span class="bg-gray-500 p-2">
-          <i class="fa fa-inbox text-bold text-3xl"></i>
+        <div class="relative border-box flex-wrap items-stretch">
+          <span class="bg-gray-500 p-2 items-center">
+            <i class="fa fa-inbox text-bold text-3xl"></i>
+          </div>
+          <input class="textbox p-2 m-auto mr-2" type="email" name="emailAddress" />
+          <button class="btn-primary" type="submit">
+            Join Us
+          </button>
         </div>
-        <input class="textbox w-2/3 p-2 m-auto mr-2" type="email" name="emailAddress" />
-        <button class="btn-primary" type="submit">
-          Join Us
-        </button>
       </form>
     </div>
   </div>
