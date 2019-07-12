@@ -6,7 +6,7 @@
     <adopters class="block w-full"></adopters>
     <contact class="block w-full"></contact>
   </div>
-  <sticky-footer class="w-full"></sticky-footer>
+  <sticky-footer class="block w-full"></sticky-footer>
   <script>
     import Navigation from '../components/navigation.tag'
     import Banner from '../components/banner.tag'

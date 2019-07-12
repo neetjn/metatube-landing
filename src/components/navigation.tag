@@ -1,19 +1,20 @@
 <navigation>
-  <nav class="flex items-center justify-between flex-wrap p-6
-              bg-gray-800 md:bg-transparent opacity-75 lg:opacity-100">
-    <div class="block lg:hidden">
-      <button class="flex items-center px-3 py-2 border rounded text-white border-yellow-500
+  <nav class="flex items-center justify-between flex-wrap p-6">
+    <div class="block w-full lg:hidden">
+      <button class="flex items-center px-3 py-2 border text-white border-yellow-500
                      hover:text-yellow-500 hover:border-white transition-color transition-ease-in-out transition-250"
               onclick={ toggleMobileNav }>
         <i class="fa fa-bars" title="Menu"></i>
       </button>
     </div>
-    <div id="nav-menu" class="w-full flex-grow lg:flex lg:items-center lg:w-auto block hidden lg:block animated fadeIn">
+    <div id="nav-menu" class="md:w-full lg:flex lg:items-center md:flex-grow lg:w-auto block lg:block animated fadeIn
+                              bg-gray-800 md:bg-transparent mt-4 md:mt-0 p-4 md:p-0 border border-gray-900 md:border-0 rounded
+                              box-shadow">
       <div class="text-sm lg:flex-grow">
-        <a each={ item in nav }
+        <a each={ (item, index) in nav }
            href={ item.href }
-           class="block mt-4 lg:inline-block lg:mt-0 font-bold text-white hover:text-yellow-500 mr-4
-                  transition-color transition-ease-in-out transition-250">
+           class={ `block ${ !index ? 'sm:mt-4' : 'mt-4' } lg:inline-block lg:mt-0 font-bold text-white hover:text-yellow-500 mr-4
+                  transition-color transition-ease-in-out transition-250` }>
           { item.label }
         </a>
       </div>
