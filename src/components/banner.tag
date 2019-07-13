@@ -6,7 +6,7 @@
          alt="Metatube logo"
          width="350px"
          height="auto" />
-    <div class="container m-auto pb-10 md:pb-30 animated fadeIn">
+    <div class="container m-auto pb-10 md:pb-64 animated fadeIn">
       <h1 class="text-center text-white text-2xl font-extrabold uppercase">
         Join the mailing list!
       </h1>
