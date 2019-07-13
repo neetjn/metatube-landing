@@ -15,4 +15,8 @@ riot.install(component => {
   component.ipsum = ipsum
 })
 
-riot.component(Landing)(document.querySelector('#app'))
+import reload from '@riotjs/hot-reload'
+
+const component = riot.component(Landing)
+reload(component)
+component(document.querySelector('#app'))

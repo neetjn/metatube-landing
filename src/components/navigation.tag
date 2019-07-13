@@ -7,7 +7,7 @@
         <i class="fa fa-bars" title="Menu"></i>
       </button>
     </div>
-    <div id="nav-menu" class="md:w-full lg:flex lg:items-center md:flex-grow lg:w-auto block lg:block animated fadeIn
+    <div id="nav-menu" class="md:w-full hidden lg:flex lg:items-center md:flex-grow lg:w-auto block lg:block animated fadeIn
                               bg-gray-800 md:bg-transparent mt-4 md:mt-0 p-4 md:p-0 border border-gray-900 md:border-0 rounded
                               box-shadow">
       <div class="text-sm lg:flex-grow">
@@ -21,7 +21,7 @@
       <div>
         <a href="https://neetgroup.net/projects/metatube"
            class="inline-block text-sm px-4 py-2 leading-none border text-white border-white
-                  hover:border-transparent hover:text-yellow-500 hover:bg-white mt-4 lg:mt-0
+                  hover:border-transparent hover:text-yellow-500 mt-4 lg:mt-0
                   transition-all transition-ease-in-out transition-250 uppercase font-bold">
           <i class="fa fa-bitcoin"></i> Support Us
         </a>

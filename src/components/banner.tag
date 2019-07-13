@@ -1,5 +1,5 @@
 <banner>
-  <div class="inner-banner opacity-50 backdrop-blur"
+  <div class="inner-banner backdrop-blur box-shadow"
        style="background: url({Banner}) no-repeat center;">
     <img class="block m-auto pt-20 md:pt-32 pb-4 animated fadeIn"
          src={ Logo }
@@ -7,17 +7,34 @@
          width="350px"
          height="auto" />
     <div class="container m-auto pb-10 md:pb-30 animated fadeIn">
-      <h1 class="text-center text-white text-2xl font-bold uppercase pb-2">Join the Mailing List!</h1>
+      <h1 class="text-center text-white text-2xl font-extrabold uppercase">
+        Join the mailing list!
+      </h1>
+      <h2 class="text-center text-white text-md font-semibold uppercase pb-4">
+        Recieve updates and offers
+      </h2>
       <form class="block m-auto max-w-sm"
             onsubmit={ sendEmail }>
-        <div class="relative border-box flex-wrap items-stretch">
-          <span class="bg-gray-500 p-2 items-center">
-            <i class="fa fa-inbox text-bold text-3xl"></i>
+        <div class="relative border-box items-stretch pb-2">
+          <span class="inline-block h-10 w-10 items-center bg-gray-900">
+            <i class="relative top-1 left-1 fa fa-inbox text-bold text-3xl text-white"></i>
           </div>
-          <input class="textbox p-2 m-auto mr-2" type="email" name="emailAddress" />
+          <input class="textbox p-2 m-auto mr-2"
+                 type="email"
+                 name="emailAddress"
+                 placeholder="name@example.com"
+                 autofocus />
           <button class="btn-primary" type="submit">
-            Join Us
+            <i class="fa fa-heart"></i> Join Us
           </button>
+        </div>
+        <div class="relative border-box items-stretch">
+          <div class="pretty p-default p-thick ml-2">
+            <input type="checkbox" />
+            <div class="state p-warning-o">
+              <label class="uppercase underline text-white">I'm a youtuber</label>
+            </div>
+          </div>
         </div>
       </form>
     </div>

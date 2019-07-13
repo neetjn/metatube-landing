@@ -19,9 +19,9 @@
 }
 
 .btn-primary {
-  @apply btn bg-yellow-500;
+  @apply btn bg-yellow-600;
 }
 
 .btn-primary:hover {
-  @apply bg-yellow-600;
+  @apply bg-yellow-500;
 }
