@@ -1,5 +1,5 @@
 <banner>
-  <div class="inner-banner backdrop-blur box-shadow"
+  <div class="inner-banner backdrop-blur opacity-75 box-shadow"
        style="background: url({Banner}) no-repeat center;
               background-size: cover;">
     <img class="block m-auto pt-20 md:pt-32 pb-4 animated fadeIn"
