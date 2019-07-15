@@ -1,6 +1,7 @@
 <banner>
   <div class="inner-banner backdrop-blur box-shadow"
-       style="background: url({Banner}) no-repeat center;">
+       style="background: url({Banner}) no-repeat center;
+              background-size: cover;">
     <img class="block m-auto pt-20 md:pt-32 pb-4 animated fadeIn"
          src={ Logo }
          alt="Metatube logo"
@@ -47,7 +48,7 @@
   </style>
   <script>
     import Logo from '../assets/images/metatube_light_01.png'
-    import Banner from '../assets/images/banner.jpg'
+    import Banner from '../assets/images/banner4.jpg'
 
     export default {
       Logo,

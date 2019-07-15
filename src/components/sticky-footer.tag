@@ -1,5 +1,4 @@
 <sticky-footer>
-  <!-- TODO: left here, finish making completely responsive -->
   <div class="flex flex-wrap p-12 bg-gray-800 text-white">
     <div class="w-1/2 sm:w-1/4 text-left ">
       <h1 class="text-2xl text-gray-500 pb-3">Links</h1>
@@ -30,6 +29,7 @@
         </li>
       </ul>
       <p class="text-gray-500 text-xs mt-6">&copy; 2019 Metatube, LLC. All Rights Reserved</p>
+      <p class="text-gray-500 text-xs md:text-sm">Photos by <a href="https://unsplash.com/@nakitac?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="underline">Nakita Cheung</a> on <a href="https://unsplash.com/search/photos/photographer-night?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="underline">Unsplash</a></p>
       <p class="text-gray-500 text-xs md:text-sm">
         Designed by <a href="https://www.linkedin.com/in/john-nolette-69ba72132/" title="Designer" class="underline">John Nolette</a>
          at <a href="https://neetgroup.net/" title="Designer Company" class="underline">neetGroup</a>
