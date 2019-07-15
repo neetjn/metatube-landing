@@ -1,8 +1,8 @@
 <banner>
-  <div class="inner-banner backdrop-blur opacity-75 box-shadow"
+  <div class="inner-banner backdrop-blur opacity-75 box-shadow xl:h-screen"
        style="background: url({Banner}) no-repeat center;
               background-size: cover;">
-    <img class="block m-auto pt-20 md:pt-32 pb-4 animated fadeIn"
+    <img class="block m-auto pt-20 md:pt-32 xl:pt-64 pb-4 animated fadeIn"
          src={ Logo }
          alt="Metatube logo"
          width="350px"
