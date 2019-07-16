@@ -25,3 +25,17 @@
 .btn-primary:hover {
   @apply bg-yellow-500;
 }
+
+.btn-default {
+  @apply bg-slate-medium;
+}
+
+.btn-default:hover {
+  @apply bg-slate;
+}
+
+.btn-sm {
+  @apply text-sm
+         py-1
+         px-2;
+}
