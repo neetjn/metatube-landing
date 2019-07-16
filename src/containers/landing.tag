@@ -2,6 +2,7 @@
   <navigation class="absolute z-10 x-0 y-0 block w-full"></navigation>
   <div class="flex-1 mx-auto w-full h-full">
     <banner class="block w-full"></banner>
+    <mission class="block w-full"></mission>
     <about class="block w-full"></about>
     <adopters class="block w-full"></adopters>
     <contact class="block w-full"></contact>
@@ -10,6 +11,7 @@
   <script>
     import Navigation from '../components/navigation.tag'
     import Banner from '../components/banner.tag'
+    import Mission from '../components/mission.tag'
     import About from '../components/about.tag'
     // import Adopters from '../components/adopters.tag'
     import Adopters from '../components/adopters/adopters-v2.tag'
@@ -19,6 +21,7 @@
     export default {
       components: {
         Navigation,
+        Mission,
         Banner,
         About,
         Adopters,

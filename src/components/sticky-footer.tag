@@ -1,5 +1,5 @@
 <sticky-footer>
-  <div class="flex flex-wrap p-12 bg-gray-800 text-white">
+  <div class="flex flex-wrap p-12 bg-slate-dark text-white">
     <div class="w-1/2 sm:w-1/4 text-left ">
       <h1 class="text-2xl text-gray-500 pb-3">Links</h1>
       <ul class="list-none">
