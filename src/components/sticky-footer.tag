@@ -1,21 +1,21 @@
 <sticky-footer>
   <div class="flex flex-wrap p-12 bg-slate-dark text-white">
     <div class="w-1/2 sm:w-1/4 text-left ">
-      <h1 class="text-2xl text-gray-500 pb-3">Links</h1>
+      <h1 class="text-2xl text-yellow-500 pb-3">Links</h1>
       <ul class="list-none">
         <li class="pb-2">
-          <a href="https://neetgroup.net/projects/metatube" class="underline">Sponsors</a>
+          <a href="https://neetgroup.net/projects/metatube" class="underline hover:text-yellow-300">Sponsors</a>
         </li>
         <li>
-          <a href="https://www.patreon.com/johnwayne" class="underline">Patreon</a>
+          <a href="https://www.patreon.com/johnwayne" class="underline hover:text-yellow-300">Patreon</a>
         </li>
       </ul>
     </div>
     <div class="w-1/2 sm:w-1/4 text-right sm:text-left">
-      <h1 class="text-2xl text-gray-500 pb-3">Company</h1>
+      <h1 class="text-2xl text-yellow-500 pb-3">Company</h1>
       <ul class="list-none">
         <li class="pb-2">
-          <a href="https://neetgroup.net/" class="underline">neetGroup</a>
+          <a href="https://neetgroup.net/" class="underline hover:text-yellow-300">neetGroup</a>
         </li>
       </ul>
     </div>

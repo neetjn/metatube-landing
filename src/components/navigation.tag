@@ -8,7 +8,7 @@
       </button>
     </div>
     <div id="nav-menu" class="md:w-full hidden lg:flex lg:items-center md:flex-grow lg:w-auto block lg:block animated fadeIn
-                              bg-gray-800 md:bg-transparent mt-4 md:mt-0 p-4 md:p-0 border border-gray-900 md:border-0 rounded
+                              bg-slate-dark md:bg-transparent mt-4 md:mt-0 p-4 md:p-0 border border-gray-900 md:border-0 rounded
                               box-shadow">
       <div class="text-sm lg:flex-grow">
         <a each={ (item, index) in nav }

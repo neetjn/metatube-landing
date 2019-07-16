@@ -15,7 +15,7 @@
       <h2 class="text-center text-white text-md font-semibold uppercase pb-4">
         Recieve updates and offers
       </h2>
-      <form class="block m-auto max-w-sm"
+      <form class="block m-auto max-w-sm p-12 md:p-0"
             onsubmit={ sendEmail }>
         <div class="relative border-box items-stretch pb-2">
           <span class="inline-block h-10 w-10 items-center bg-gray-900">
@@ -26,7 +26,7 @@
                  name="emailAddress"
                  placeholder="name@example.com"
                  autofocus />
-          <button class="btn-primary" type="submit">
+          <button class="btn-primary mt-2 md:mt-0" type="submit">
             <i class="fa fa-heart"></i> Join Us
           </button>
         </div>
