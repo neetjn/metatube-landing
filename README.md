@@ -1,6 +1,8 @@
 # Metatube / landing-page
 
 [![Build Status](https://travis-ci.org/neetjn/metatube-landing.svg?branch=master)](https://travis-ci.org/neetjn/metatube-landing)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Metatube is a next generation media/content sharing platform. As where Youtube has been silencing voices that don't coincide with it's shareholders (being a private company), Metatube is a redesign of the entire media network paradigm. Allowing content creators to monetize any and all content, giving them more monetization options, and giving content consumers a more secure channel to consume from.
 
