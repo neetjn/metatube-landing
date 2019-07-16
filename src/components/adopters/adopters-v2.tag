@@ -2,8 +2,9 @@
   <div class="p-12 bg-slate-dark text-white box-shadow">
     <div class="flex flex-grow">
       <div class="w-full md:w-1/2">
-        <form class="p-5 bg-white text-slate-dark box-shadow">
-        </form>
+        <h1 class="text-center text-4xl font-extrabold">
+          Join the Meta
+        </h1>
       </div>
       <div class="md:w-1/2 hidden md:flex">
         <svg width="100%" height="300" preserveAspectRatio="xMinYMin meet")>
