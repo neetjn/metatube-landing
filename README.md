@@ -1,9 +1,5 @@
 # Metatube / landing-page
 
-> Landing page for Metatube project by [neetGroup](https://neetgroup.net).
-
-## Metatube
-
 Metatube is a next generation media/content sharing platform. As where Youtube has been silencing voices that don't coincide with it's shareholders (being a private company), Metatube is a redesign of the entire media network paradigm. Allowing content creators to monetize any and all content, giving them more monetization options, and giving content consumers a more secure channel to consume from.
 
 For more information follow [@neet_jn](https://twitter.com/neet_jn/) on Twitter. A more detailed outlook on the venture will be available at a later time.
