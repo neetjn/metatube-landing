@@ -1,5 +1,6 @@
 <landing>
   <navigation class="absolute z-10 x-0 y-0 block w-full"></navigation>
+  <announcement class="fixed z-10 w-full bottom-0"></announcement>
   <div class="flex-1 mx-auto w-full h-full">
     <banner class="block w-full"></banner>
     <mission class="block w-full"></mission>
@@ -9,6 +10,7 @@
   </div>
   <sticky-footer class="block w-full"></sticky-footer>
   <script>
+    import Announcement from '../components/announcement.tag'
     import Navigation from '../components/navigation.tag'
     import Banner from '../components/banner.tag'
     import Mission from '../components/mission.tag'
@@ -20,6 +22,7 @@
 
     export default {
       components: {
+        Announcement,
         Navigation,
         Mission,
         Banner,

@@ -1,23 +1,22 @@
 <mission>
   <div class="p-12 bg-slate-dark text-white box-shadow">
-    <h1 class="text-center text-5xl font-extrabold underline uppercase">
-      Why Metatube
+    <h1 class="text-center text-6xl text-yellow-500 font-extrabold underline uppercase animated slideInLeft">
+      Why Meta
     </h1>
-    <div class="flex flex-grow">
-      <div class="w-full md:w-1/2">
-        <h1>list here...</h1>
-      </div>
-      <div class="w-full md:w-1/2">
-        <h1>graph here...</h1>
-        <svg class="morpher" width="140" height="140" viewBox="0 0 140 140">
-          <g fill="none" fill-rule="evenodd">
-            <g fill="currentColor" fill-opacity=".15" transform="translate(0 6)">
+    <div class="p-5 animated slideInRight">
+      <p class="w-1/2 m-auto pb-4 text-xs">{ ipsum.paragraph() }</p>
 
-            </g>
-            <polygon class="polymorph" stroke-width="1" stroke="currentColor" points="70 35.94260070554478 118.87149407614443 59.666494076144424 107.87256516241132 128.16858885783364 57.880059238555745 89.68839929445522 15.368600705544779 58.58403554313345"></polygon>
+      <h1 class="uppercase font-bold text-center text-yellow-300">We need a new model</h1>
+      <svg class="morpher block m-auto text-yellow-500" width="140" height="140" viewBox="0 0 140 140">
+        <g fill="none" fill-rule="evenodd">
+          <g fill="currentColor" fill-opacity=".15" transform="translate(0 6)">
+            <!-- Drawn on mount -->
           </g>
-        </svg>
-      </div>
+          <polygon class="polymorph" stroke-width="1" stroke="currentColor" points="70 35.94260070554478 118.87149407614443 59.666494076144424 107.87256516241132 128.16858885783364 57.880059238555745 89.68839929445522 15.368600705544779 58.58403554313345"></polygon>
+        </g>
+      </svg>
+
+      <p class="w-1/2 m-auto text-xs text-right">{ ipsum.paragraph() }</p>
     </div>
   </div>
   <style>
