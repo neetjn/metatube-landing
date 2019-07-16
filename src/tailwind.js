@@ -15,7 +15,7 @@ module.exports = {
         huge: '0 30px 60px -15px rgba(0, 0, 0, .25)'
       },
       fontFamily: {
-        global: 'Open Sans',
+        global: 'Open Sans'
       },
       inset: {
         1: '10%',
@@ -34,7 +34,7 @@ module.exports = {
         '1/6': '16%'
       },
       colors: {
-        'slate': '#3b3b3b',
+        slate: '#3b3b3b',
         'slate-medium': '#2b2b2b',
         'slate-dark': '#1b1b1b'
       }
