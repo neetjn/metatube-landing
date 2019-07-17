@@ -32,6 +32,10 @@
     export default {
       nav: [
         {
+          href: '#mission',
+          label: 'Mission'
+        },
+        {
           href: '#about',
           label: 'About'
         },
