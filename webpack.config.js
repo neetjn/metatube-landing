@@ -44,7 +44,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jp(e*)g|giff)$/,
+        test: /\.(png|jp(e*)g|giff|woff2?|ttf|otf|eot|svg)$/,
         use: [
           {
             loader: 'url-loader',
@@ -54,13 +54,13 @@ module.exports = {
           },
         ]
       },
-      {
-        test: /\.(woff2?|ttf|otf|eot|svg)$/,
-        loader: 'file-loader',
-        options: {
-          name: '[path][name].[ext]'
-        }
-      },
+      // {
+      //   test: /\.(woff2?|ttf|otf|eot|svg)$/,
+      //   loader: 'file-loader',
+      //   options: {
+      //     name: '[path][name].[ext]'
+      //   }
+      // },
       {
         test: /\.css$/,
         use: [
