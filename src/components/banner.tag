@@ -26,7 +26,7 @@
                  name="emailAddress"
                  placeholder="name@example.com"
                  autofocus />
-          <button class="btn-primary mt-2 md:mt-0" type="submit">
+          <button class="btn btn-primary mt-2 md:mt-0" type="submit">
             <i class="fa fa-heart"></i> Join Us
           </button>
         </div>
@@ -51,11 +51,49 @@
     import Logo from '../assets/images/metatube_light_01.png'
     import Banner from '../assets/images/banner5.jpg'
 
+    const emailRegex = /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/
+
     export default {
       Logo,
       Banner,
-      sendEmail(e) {
+      toggleForm(textbox, checkbox, btn) {
+        let emailField = textbox || this.$('input[type="email"]', this.root)
+        let youtuberToggle = checkbox || this.$('input[type="checkbox"]', this.root)
+        let submitBtn = btn || this.$('button[type="submit"]', this.root)
 
+        emailField.disabled = !emailField.disabled
+        youtuberToggle.disabled = !youtuberToggle.disabled
+        submitBtn.disabled = !submitBtn.disabled
+      }
+      sendEmail(e) {
+        const emailField = this.$('input[type="email"]', this.root)
+        const youtuberToggle = this.$('input[type="checkbox"]', this.root)
+
+        this.toggleForm(emailField, youtuberToggle)
+
+        if (emailRegex.test(emailField.value)) {
+          /*
+            fetch(this.Config.ipGateway)
+              .then(res => res.json())
+              .then(data = > ...)
+          */
+          const EmailList = this.Firestore.collection('emailList')
+          EmailList.doc().set({
+            address: emailField.value,
+            isYoutuber: youtuberToggle.checked,
+            reference: window.location.origin,
+            submitted: new Date()
+          })
+            .then(res => {
+              // this.toggleForm(emailField, youtuberToggle)
+              // TODO: left here, add pop up notif
+            })
+            .catch(err => {
+              console.error(err)
+              this.toggleForm(emailField, youtuberToggle)
+            })
+        }
+        return false
       }
     }
   </script>

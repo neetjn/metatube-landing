@@ -39,3 +39,12 @@
          py-1
          px-2;
 }
+
+.btn[disabled] {
+  @apply bg-gray-600
+         cursor-not-allowed;
+}
+
+.btn[disabled]:hover {
+  @apply bg-gray-700;
+}

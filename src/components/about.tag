@@ -44,7 +44,7 @@
 
     export default {
       onMounted() {
-        const aboutIcons = this.$$('about .container h1 i')
+        const aboutIcons = this.$$('i', this.root)
         const toggle = anime({
           targets: aboutIcons,
           scale: 1.1,
