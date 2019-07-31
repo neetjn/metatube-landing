@@ -5,6 +5,26 @@
         <h1 class="text-center text-4xl font-extrabold">
           Join the Meta
         </h1>
+        <form class="mt-2 p-4 p-5 bg-slate-medium flex flex-grow flex-wrap">
+          <div class="w-full lg:w-1/2">
+            <label class="block mb-2">
+              <span class="block font-bold uppercase">Email Address</span>
+              <input type="text" class="w-full lg:w-auto color-slate-dark p-2" placeholder="https://youtube.com/channel/..." />
+            </label>
+            <label class="block mb-4">
+              <span class="block font-bold uppercase">Channel Url</span>
+              <input type="text" class="w-full lg:w-auto color-slate-dark p-2" placeholder="https://youtube.com/channel/..." />
+            </label>
+            <button class="block btn btn-primary text-sm w-full lg:w-auto">
+              <i class="fa fa-paper-plane"></i> Join Us
+            </button>
+          </div>
+          <div class="w-full lg:w-1/2">
+            <button class="block btn btn-red m-auto mt-12 lg:mt-16 w-full lg:w-auto text-sm text-center">
+              <i class="fa fa-youtube text-xl"></i> Sign Up With Google
+            </button>
+          </div>
+        </form>
       </div>
       <div class="md:w-1/2 hidden md:flex">
         <svg width="100%" height="300" preserveAspectRatio="xMinYMin meet")>

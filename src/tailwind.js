@@ -37,6 +37,12 @@ module.exports = {
         slate: '#3b3b3b',
         'slate-medium': '#2b2b2b',
         'slate-dark': '#1b1b1b'
+      },
+      spacing: {
+        '1/2': '50%',
+        '1/3': '33%',
+        '1/4': '25%',
+        '1/6': '16%'
       }
     }
   },

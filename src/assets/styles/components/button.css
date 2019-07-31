@@ -26,6 +26,14 @@
   @apply bg-yellow-500;
 }
 
+.btn-red {
+  @apply bg-red-500;
+}
+
+.btn-red:hover {
+  @apply bg-red-600;
+}
+
 .btn-default {
   @apply bg-slate-medium;
 }
