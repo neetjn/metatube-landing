@@ -3,7 +3,7 @@
        style="background: url({Banner}) no-repeat;
               background-size: cover;
               background-position: 100% 25%;">
-    <img class="block m-auto pt-20 md:pt-32 xl:pt-40 pb-4 animated fadeIn"
+    <img class="block m-auto pt-20 md:pt-32 xl:pt-1/6 pb-4 animated fadeIn"
          src={ Logo }
          alt="Metatube logo"
          width="350px"
